@@ -1,0 +1,87 @@
+body{
+  background-color: rgb(40, 39, 38); font-family: Times New Roman; text-align: center;
+  margin: 0; 
+
+}
+
+#mainsearch{
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  border: 5px solid rgb(34, 193, 113);
+  background-color: springgreen;
+  margin: 0; 
+  padding: 0; 
+
+}
+
+#eatsimage{
+  height: 650px;
+  
+}
+
+#readme{
+  font-size: 20px;
+}
+#note{
+  font-size: 15px;
+}
+
+h2{
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  border: 5px solid rgb(249, 61, 61);
+  background-color: rgb(233, 92, 92);
+  margin: 0; 
+  padding: 0; 
+}
+
+#searchbar {
+  width: 500px; 
+  height: 40px; 
+  font-size: 28px; 
+  text-align: center;
+  font-family: Times New Roman;
+}
+
+form{
+  margin: 10px;
+}
+#searchbutton{
+  width: 80px;
+  height: 30px;
+  font-size: 18px;
+  text-align: center;
+  background-color: cyan;
+}
+
+#searchbutton:hover{
+  background-color: yellow;
+}
+
+#thanks{
+  font-size: 15px;
+  color: black;
+  background-color: springgreen;
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  border: 3px solid rgb(34, 193, 113);
+  text-align: center;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+
+  
+}
+
+
+#ingredspic{
+  width: 1445px;
+  height: 650px;
+  margin: 0;
+  padding: 0;
+  display: block;
+
+}
