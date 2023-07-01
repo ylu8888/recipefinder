@@ -37,23 +37,29 @@ h2{
   padding: 0; 
 }
 
+form{
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
 #search {
   width: 450px; 
   height: 40px; 
-  font-size: 18px; 
+  font-size: 20px; 
   text-align: center;
   font-family: Times New Roman;
 }
 
-form{
-  margin: 10px;
-}
 #submit{
   width: 80px;
-  height: 30px;
+  height: 45px;
   font-size: 14px;
   text-align: center;
   background-color: cyan;
+  
 }
 
 #submit:disabled {
