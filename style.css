@@ -37,7 +37,7 @@ h2{
   padding: 0; 
 }
 
-#searchbar {
+#search {
   width: 500px; 
   height: 40px; 
   font-size: 28px; 
@@ -48,7 +48,7 @@ h2{
 form{
   margin: 10px;
 }
-#searchbutton{
+#submit{
   width: 80px;
   height: 30px;
   font-size: 18px;
@@ -56,7 +56,7 @@ form{
   background-color: cyan;
 }
 
-#searchbutton:hover{
+#submit:hover{
   background-color: yellow;
 }
 
