@@ -43,6 +43,8 @@ form{
   align-items: center;
   justify-content: center;
   display: flex;
+  
+  
 }
 
 #search {
@@ -51,14 +53,21 @@ form{
   font-size: 20px; 
   text-align: center;
   font-family: Times New Roman;
+  border: 1px solid rgb(40, 38, 38);
+  border-radius: 18px 0 0 18px;
+
 }
 
 #submit{
+  
   width: 80px;
   height: 45px;
   font-size: 14px;
   text-align: center;
   background-color: cyan;
+  border: 1px solid rgb(40, 38, 38);
+  border-radius: 0 18px 18px 0;
+  
   
 }
 
