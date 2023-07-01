@@ -43,7 +43,8 @@ form{
   align-items: center;
   justify-content: center;
   display: flex;
-  
+  font-family: Times New Roman;
+  color: black;
   
 }
 
@@ -55,11 +56,11 @@ form{
   font-family: Times New Roman;
   border: 1px solid rgb(40, 38, 38);
   border-radius: 18px 0 0 18px;
+  color: black !important;
 
 }
 
-#submit{
-  
+#submit{  
   width: 80px;
   height: 45px;
   font-size: 14px;
@@ -67,6 +68,8 @@ form{
   background-color: cyan;
   border: 1px solid rgb(40, 38, 38);
   border-radius: 0 18px 18px 0;
+  font-weight: bold;
+  font-family: Times New Roman;
   
   
 }
@@ -77,6 +80,7 @@ form{
 
 #submit:not(:disabled):hover {
   background-color: yellow;  /* color changes only when buttons enabled */
+  color: black;
 }
 
 #thanks{
