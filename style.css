@@ -56,8 +56,12 @@ form{
   background-color: cyan;
 }
 
-#submit:hover{
-  background-color: yellow;
+#submit:disabled {
+  background-color: cyan; 
+}
+
+#submit:not(:disabled):hover {
+  background-color: yellow;  /* color changes only when buttons enabled */
 }
 
 #thanks{

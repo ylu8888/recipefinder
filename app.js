@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
-  let search = document.querySelector('search');
-  let submit = document.getElementById('submit');
+  let search = document.querySelector('#search');
+  let submit = document.querySelector('#submit');
 
     document.querySelector('#submit').disabled = true;
     
@@ -8,9 +8,17 @@ document.addEventListener("DOMContentLoaded", function(){
       if(document.querySelector('#search').value.length == 0){
         //if nothing is typed, disable the search button
         document.querySelector('#submit').disabled = true; 
+    
+        //remove the hoverbackground color
+        document.querySelector('#submit').classList.remove('submit');
+
       }
       else{
         document.querySelector('#submit').disabled = false;
+
+        //add hover effect
+        document.querySelector('#submit').classList.add('submit');
+       
       }
     }
   
@@ -18,16 +26,5 @@ document.addEventListener("DOMContentLoaded", function(){
   });
   
   
-  /*const searchForm = document.getElementById('searchForm');
-  const searchInput = document.getElementById('searchbar');
   
-  
-  searchForm.addEventListener('submit', function(event) {
-    event.preventDefault(); 
-  
-    const searchQuery = searchInput.value;
-  
-    window.location.href = `searchResults.html?query=${searchQuery}`;
-  });
-  */
   
